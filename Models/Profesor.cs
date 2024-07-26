@@ -48,9 +48,28 @@ public class Profesor : Persona
         return aniosContratacion;
     }
 
-    public void ObtenerSalario()
+    public double ObtenerSalario()
     {
-        Console.WriteLine($"El salario del profesor es: ${Salario}");
+        return Salario;
     }
 
+    public string MiNumeroDocumentoP()
+    {
+        return NumeroDocumento;
+    }
+
+    public void MiSalario(double valor)
+    {
+        Salario = valor;
+    }
+
+    public string Nombre
+    {
+        get => base.Nombre;
+        set => base.Nombre = value;
+    }
+
+
 }
+
+

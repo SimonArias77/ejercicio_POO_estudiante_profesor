@@ -36,7 +36,7 @@ public class Persona
 
     // creamos los métodos de la clase
 
-    public void MostrarDetalles ()
+    public void MostrarDetalles()
     {
         Console.WriteLine($"Id: {Id}");
         Console.WriteLine($"Nombre: {Nombre} {Apellido}");
